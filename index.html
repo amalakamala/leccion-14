@@ -29,7 +29,18 @@
 				<option value="invisibilidad">Invisibilidad</option>	
 				<option value="cronoquinesis">Cronoquinesis</option>							
 			</select>
-		</p>		
+		</p>	
+		<p>
+			<label for="email">Email</label><br>		
+			<input type ="email" placeholder="Escribe tu email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" id="email" required>
+		</p>
+		<p>
+			<label for="password">Crea tu contraseña</label><br>		
+			<input type ="password" name="password" pattern=".{6,}" placeholder="6 o más caracteres" id="password" required>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+		</p>			
 	<form>			
 </body>
 </html>
