@@ -6,5 +6,19 @@
 </head>
 <body>
 	<h1 align="center">Formulario de Datos</h1>		
+	<form align="center" action ="">
+		<p>
+			<label for="nombre">Nombre</label><br>
+			<input type ="text" placeholder="Escribe tu nombre" name="nombre" id="nombre" maxlength="12" required>
+		</p>
+		<p>
+			<label for="apellido">Apellido</label><br>		
+			<input type ="text" placeholder="Escribe tu apellido" name="apellido" id="apellido" maxlength="12" required>
+		</p>	
+		<p>
+			<label for="telefono">Teléfono</label><br>		
+			<input type ="tel" placeholder="Número de 9 dígitos" pattern="[0-9]{9}" name="telefono" id="telefono" required>
+		</p>
+	<form>			
 </body>
 </html>
