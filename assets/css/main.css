@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #FEEBEB;
+  color: Grey;
+}
+
+h1{
+	color: #5A5140;
+	font-family: serif;
+}
+
+p{
+  font-weight: lighter;
+  font-family: sans-serif;	
+}
